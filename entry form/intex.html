@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UOT- Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="first.js"></script>
+</head>
+<body>
+    <header >
+    <img src="./download.jpg" alt="logo">
+    <h1 id="heading">University Of Tamilnadu </h1>
+</header>
+
+<main >
+<form >
+    <fieldset style= background-color:lightgray;">
+<legend style="color: red; font-size: larger; background-color: white;">Students Details :</legend>
+<div class="detail">
+
+<label>NAME :</label>
+<select name="salutation">
+    <option >Mr</option>
+    <option >Ms</option>
+</select>
+<input type="text" name="student name" placeholder=" -------Enter your name--------">
+<br>
+<label>AGE :</label>
+<input type="number" name="student age"  placeholder="--------Enter your age--------">
+<br>
+
+<label>DATE OF BIRTH :</label>
+<input type="date" name="student dob" >
+<br>
+
+<label>QUALIFICATION :</label>
+<select name="event"  >
+    <option>10th standard</option>
+    <option>11th standard</option>
+    <option>12th standard</option>
+</select>
+<label>(Others standards not elgible.)</label><br>
+<label>EVENTS :</label>
+<label>Apptitude Exam</label>
+<input type="checkbox" name="event" >
+<label>Speech Contest</label>
+<input type="checkbox" name="event" >
+<label>Science and Model Presentation</label>
+<input type="checkbox" name="event" >
+<label>Sports</label>
+<input type="checkbox" name="event" >
+<br>
+
+<label>EMAIL :</label>
+<input type="email" name="email" placeholder="--------Enter your email---------" >
+<br>
+<label>FOOD :</label>
+<label>Vegetarian</label>
+<input type="radio" name="foods" >
+<label>Non-vegetarian</label>
+<input type="radio" name="foods" >
+<br>
+</div>
+
+<input type="button" value="submit" id="submitbtn" >
+
+<h2> You must fill all the details given above.
+ Thank you for registration. We will contact you soon. </h2>
+
+    </fieldset>
+</form>
+</main>
+</body>
+</html>
